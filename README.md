@@ -40,7 +40,11 @@ MIDTRANS_MERCHAT_ID=xxxxxx
 MIDTRANS_CLIENT_KEY=SB-Mid-client-xxxxx
 MIDTRANS_SERVER_KEY=SB-Mid-server-xxxxx
 ```
+4. **Jalankan Aplikasi**
 
+```bash
+php artisan serve
+```
 
 5. **Instalasi Aplikasi**
 
@@ -49,11 +53,6 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
-4. **Jalankan Aplikasi**
-
-```bash
-php artisan serve
-```
 ## Deskripsi
 
 **Aplikasi pembelian barang tobanga outdoors adalah sebuah platform online berbasis web yang memungkinkan pengguna untuk membeli berbagai macam barang yang digunakan untuk aktivitas luar ruangan, seperti camping, hiking, climbing, dan sebagainya. Aplikasi ini menyediakan berbagai pilihan produk yang berkualitas dan sesuai dengan kebutuhan pengguna.**
